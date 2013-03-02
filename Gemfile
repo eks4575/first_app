@@ -6,9 +6,10 @@ gem 'rails', '3.2.12'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'sqlite3'
-#group :production, :staging do
+group :production, :staging do
 #  gem "pg"
-#end
+   gem 'sqlite3'
+end
 #
 #group :development, :test do
 #  gem "sqlite3-ruby", "~> 1.3.2", :require => "sqlite3"
